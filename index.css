@@ -64,7 +64,86 @@ header{
     margin-left: 35px;
     border-radius: 49.99%;
 }
+@media only screen and (max-width: 1300px) {
+    .profile img{
+        margin-left: 10px;
+        height: 45px;
+        width: 45px;
+    }
+    .notification img{
+        margin-left: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    .search input{
+        width: 250px;
+    }
+    .search{
+        margin-left: 11rem;
+    }
+    .favourites1{
+        /* display: inline-block; */
+        margin-left: 30px;
+        font-size: 25px;
+        vertical-align: 15px;
+    }
+}  
+@media only screen and (max-width: 900px) {
+.profile img{
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+}
+.notification img{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.search input{
+    width: 150px;
+}
+.search{
+    margin-left: 7rem;
+}
+.favourites1{
+    /* display: inline-block; */
+    margin-left: 25px;
+    font-size: 15px;
+    vertical-align: 15px;
+    
+}
+}
+@media only screen and (max-width: 600px) {
+    .profile img{
+        margin-left: 0px;
+        height: 35px;
+        width: 35px;
+    }
+    .notification img{
+        margin-left: 5px;
+        height: 15px;
+        width: 15px;
+    }
+    .search input{
+        width: 100px;
+    }
+    .search{
+        margin-left: 2rem;
+    }
+    .favourites1{
+        /* display: inline-block; */
+        margin-left: 50px;
+        font-size: 15px;
+        vertical-align: 15px;
+        
+    }
+}
 
+    @media only screen and (max-width: 600px) {
+        .search{
+            margin-left: 4rem;
+        }
+}
 /* navigation finished **************************************
 ********************************************** */
 /* main starts playlist */
